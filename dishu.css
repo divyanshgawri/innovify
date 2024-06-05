@@ -633,7 +633,7 @@ h4 {
   }
   
   .last ul li a {
-    color: #8338ec; /* Purple color from the palette */
+    color: #00eaff; /* Purple color from the palette */
     text-decoration: none; /* Remove underline */
     font-size: 1rem; /* Adjust font size as needed */
     transition: color 0.3s ease; /* Add transition effect */

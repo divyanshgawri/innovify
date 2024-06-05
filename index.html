@@ -14,7 +14,26 @@
   function openGoogleForm() {
       window.open('https://docs.google.com/forms/d/e/1FAIpQLSeZGC5iM6zUt4e5_Ojbhq121HlR06WnkH5IFy-rSDiF-TsrPg/viewform?usp=sf_link/viewform', '_blank');
   }
+  document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("openButton1").addEventListener("click", function() {
+        // Change "pricing.html" to the name of your HTML file
+        window.location.href = "pricing.html";
+      });
+    });
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("openButton2").addEventListener("click", function() {
+        // Change "pricing.html" to the name of your HTML file
+        window.location.href = "pricing.html";
+      });
+    });
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("openButton3").addEventListener("click", function() {
+        // Change "pricing.html" to the name of your HTML file
+        window.location.href = "pricing.html";
+      });
+    });
   </script>
+  
   
 <body>
   <nav class="bluedarken-2">
@@ -24,7 +43,7 @@
      
       
       <ul id="nav-mobile" class="center hide-on-med-and-down">
-        <li><a href="/">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="pricing.html">Pricing</a></li>
         <li><a href="#content">Content</a></li>
@@ -33,7 +52,7 @@
       <ul class="right-hide-on-med-and-down">
         
         
-        <li class="right-hide-on-med-and-down"><a href="signup">Sign Up</a></li>
+        <li class="right-hide-on-med-and-down"><a href="signup.html">Sign Up</a></li>
       </ul>
       
     </div>
@@ -41,10 +60,10 @@
     
   </nav>
 
-  <div class="container1a">
+  <div class="container1a" >
     <div class="in">
     
-    <div class="headi"><h4 data-text = 'AI AUTOMATION'>AI AUTOMATION</h4>
+    <div class="headi" id="content"><h4 data-text = 'AI AUTOMATION'>AI AUTOMATION</h4>
     <p>Innovify AI Solutions streamlines tasks through AI automation, boosting efficiency effortlessly.<br> By harnessing AI technology, Innovify simplifies processes and enhances productivity seamlessly.</p>
     
     <div class="de">
@@ -53,7 +72,7 @@
     
     </div>
     
-    <div class="container-img">
+    <div class="container-img" id="Chatbot">
       10010001010001001010000100010010100010001010101010
       01001010000100001001010010100100010001001010101010
       10010001010001001010000100010010100010001010101010
@@ -95,7 +114,7 @@
         <li>Lead Generation</li>
         <li>Website integration</li>
       </ul>
-      <button>Sign Up</button>
+      <button id="openButton1">Check Out</button>
     </div>
     <div class="pricing-box">
       <h2>Pro</h2>
@@ -104,7 +123,7 @@
         <li>Lead Generation</li>
         <li>24/7 Support</li>
       </ul>
-      <button>Sign Up</button>
+      <button id="openButton2">Check Out</button>
     </div>  
     <div class="pricing-box">
       <h2>Premium</h2>
@@ -113,7 +132,7 @@
         <li>Automted Email</li>
         <li>LinkedIn posts</li>
       </ul>
-      <button>Sign Up</button>
+      <button id="openButton3">Check Out</button>
     </div>
   </div>
   
@@ -123,30 +142,30 @@
     <div class="headero">
       <h1>AI AUTOMATIONS</h1>
     </div>
-    <div class="content">
+    <div class="content" id="email">
       <div class="body1">
         <img src="./content1.png" class="ds" alt="Content Image 1">
       </div>
       <div class="body11">
-        <p>Introducing our Email Automation Workflows - the ultimate time-saver! Our AI-powered solution automates email sending and replying, freeing up your time to focus on growing your business. Say goodbye to email stress and hello to efficiency!</p>
+        <p>Email Marketing</br>Introducing our Email Automation Workflows - the ultimate time-saver! Our AI-powered solution automates email sending and replying, freeing up your time to focus on growing your business. Say goodbye to email stress and hello to efficiency!</p>
       </div>
       <div class="dishu1">Email Automation</div>
 
       
     </div>
-    <div class="content">
+    <div class="content" id="lead">
       <div class="body11">
-        <p>Revolutionize your lead generation with our innovative solution! We automate lead capture into Google Sheets using webhooks and AI, eliminating manual data entry. Say goodbye to missed opportunities and hello to streamlined efficiency.<br/>Try it now!</p>
+        <p>Lead Generation</br> your lead generation with our innovative solution! We automate lead capture into Google Sheets using webhooks and AI, eliminating manual data entry. Say goodbye to missed opportunities and hello to streamlined efficiency.<br/>Try it now!</p>
       </div>
       <img src="./email.png" class="body11" alt="Email Image">
     </div>
     
       <div class="dishu1">Lead Generation </div>
     </div>  
-    <div class="content">
+    <div class="content" id="social">
       <img src="./wordpress.png" class="body1b" alt="WordPress Image">
       <div class="body11c">
-        <p>Transform your social media strategy with our ChatGPT-powered automation! Ideal for businesses, marketers, and influencers, our platform streamlines your workflow so you can focus on growing your brand.</p>
+        <p>Social Media</br>Transform your social media strategy with our ChatGPT-powered automation! Ideal for businesses, marketers, and influencers, our platform streamlines your workflow so you can focus on growing your brand.</p>
       </div>
     </div>
     
@@ -155,7 +174,7 @@
   </div>
 
   <!-- another example -->
-  <div class="main_text">ABOUT US</div>
+  <div class="main_text" id="about">ABOUT US</div>
   <div class="container12">
     
     <div class="box">
@@ -173,10 +192,10 @@
 <footer class="last">
   <div class="title1">
     <ul>Products
-      <li><a href="#">Chatbot</a></li>
-      <li><a href="#">Automated Email</a></li>
-      <li><a href="#">Lead Generation</a></li>
-      <li><a href="#">Social Media posts</a></li>
+      <li><a href="#chatbot">Chatbot</a></li>
+      <li><a href="#email">Automated Email</a></li>
+      <li><a href="#lead">Lead Generation</a></li>
+      <li><a href="#social">Social Media posts</a></li>
     </ul>
   </div>
   <div class="title1">
