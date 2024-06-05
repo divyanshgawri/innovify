@@ -88,8 +88,11 @@
   z-index: -1;
 }
 
-.newimg{
-  background-image: url("../bot.png");
+.container-img {
+  position: relative;
+}
+
+.newimg {
   background-size: contain;
   width: 12.5rem;
   height: 11.25rem;
@@ -101,8 +104,8 @@
   flex-direction: row;
   justify-content: space-around;
 }
-.newimg2{
-  background-image: url("../Untitled_design__9___2_-removebg-preview.png");
+
+.newimg2 {
   background-size: cover;
   background-repeat: no-repeat;
   height: 12.5rem;
@@ -110,9 +113,9 @@
   position: relative;
   left: 15.625rem;
   scale: 1.7;
-  margin: -1.5625rem 0;
-
+  margin: -10rem 0 0rem;
 }
+
 .automation-info{
   width: 62.5rem;
   height: 2.5rem;
@@ -462,17 +465,17 @@ h4 {
   height: 25rem;
   width: 100%;
 }
-.container-img1{
-  background-image: url("../angelo\ brewing.png");
+.container-img1 {
   height: 18rem;
   width: 31.25rem;
-  background-size: contain;
+  object-fit: contain; /* This will ensure the image is contained within the specified dimensions */
   background-repeat: no-repeat;
   mix-blend-mode: normal;
   border-radius: 1.5rem;
   border-bottom-right-radius: 1.75rem;
   margin: 0px -8rem 0px 0rem;
 }
+
 
 .headi1{
   display: flex;
