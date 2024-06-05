@@ -1425,7 +1425,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% 0rem 5rem 8rem;
-    background-image: url("../content1.png");
+    background-image: url("./content1.png");
     background-size: cover;
     height: 39rem;
     width: 9rem;
