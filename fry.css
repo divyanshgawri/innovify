@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+
+
+.newtab {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.newtab th, .newtab td {
+
+  padding: 10px; /* Increased padding for better readability */
+}
+
+.newtab th {
+  background-color: #1a1a1a;
+}
+
+.newtab td {
+  background-color: #1a1a1a;
+}
