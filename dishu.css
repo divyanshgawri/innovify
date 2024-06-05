@@ -342,7 +342,7 @@ h4 {
       margin-top: 1rem;
       flex-direction: row;
       justify-content: space-evenly;
-      
+      margin-left: 1rem;
     }
     .content1a{
       display: flex;
@@ -372,6 +372,7 @@ h4 {
     background-size: cover !important;
     border:1px solid #000;
     border-radius: 1.7rem;
+    
   }
     .body11 {
       flex: 1;
@@ -397,7 +398,7 @@ h4 {
   padding: 0px;
   background-color: #00ff33 ;
   margin: 5%;
-  background-image: url("../email.png");
+  background-image: url("./email.png");
   background-size: cover;
   height: 18rem;
   width: 22rem;
@@ -418,21 +419,31 @@ h4 {
 
 }
 
-.body11b{
-  flex: 1;
-  border: 1px solid #000; /* boundary for body1 and body11 */
-  padding: 0px;
-  background-color: #1a1a1a ;
-  margin: 5%;
-  color: #ffffff;
-  border: 2px solid white;
-  padding: 10px;
+.body11b {
+  
+    flex: 2;
+    
+    padding: 0;
+    margin: 2rem -3rem 2rem 3rem;
+    height: 18rem;
+    width: 22rem;
+    border-radius: 1.5rem;
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+  .body11b p{
+  
+    flex: 2;
+    
+    padding: 0;
+    margin: 2rem -3rem 2rem 3rem;
+    height: 18rem;
+    width: 22rem;
+    border-radius: 1.5rem;
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+  
 
-  border-radius: 20px; 
-  height: 18rem;
-  width: 22rem;
 
-}
 .body11c{
   flex: 1;
   border: 1px solid #000; /* boundary for body1 and body11 */
@@ -450,17 +461,17 @@ h4 {
 }
 .body11 p{
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: large;
 }
 .body11b p{
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: large;
 }
 .body11c p{
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: large;
 }
 
