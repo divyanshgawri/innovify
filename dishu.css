@@ -407,16 +407,17 @@ h4 {
 }
 .body1b{
   flex: 2;
-  border: 1px solid #000; /* boundary for body1 and body11 */
-  padding: 0px;
-  background-color: #00ff33 ;
-  margin: 5%;
-  background-image: url("./wordpress.png");
-  background-size: cover;
-  height: 18rem;
-  width: 22rem;
-  border-radius: 1.5rem;
-
+      border: 1px solid #000; /* boundary for body1 and body11 */
+      
+      background-color: #1a1a1a ;
+      margin-left: 1rem;
+      color: #ffffff;
+      border: 2px solid white;
+      
+      
+      border-radius: 1.5rem; 
+      height: 19rem;
+      width: 19rem;
 }
 
 .body11b {
@@ -446,16 +447,18 @@ h4 {
 
   .body11c {
     flex: 1;
-    border: 1px solid #000;
-    padding: 0;
-    background-color: #1a1a1a;
-    margin: 5%;
-    color: #ffffff;
-    border: 2px solid white;
-    padding: 0.75rem;
-    border-radius: 1.5rem;
-    height: 18rem;
-    width: 22rem;
+
+      border: 1px solid #000; /* boundary for body1 and body11 */
+      padding: 1rem;
+      background-color: #1a1a1a ;
+      margin-left: 1rem;
+      color: #ffffff;
+      border: 2px solid white;
+      
+      
+      border-radius: 1.5rem; 
+      height: 19rem;
+      width: 22rem;
   }
 .body11 p{
   color: #ffffff;
@@ -528,7 +531,7 @@ h4 {
   width: 12.5rem;
   height: 12.5rem;
   background-color: lightgray;
-  background-image: url("./dishuphoto.jpg");
+  /* background-image: url("./dishuphoto.jpg"); */
   background-size: cover;
   border-radius: 50%;
   margin-bottom: 0.75rem;
@@ -538,7 +541,7 @@ h4 {
   width: 200px;
   height: 200px;
   background-color: lightgray;
-  background-image: url("./paras.jpg");
+  /* background-image: url("./paras.jpg"); */
   background-size: cover;
   border-radius: 50%;
   margin-bottom: 0.75rem;
@@ -606,7 +609,7 @@ h4 {
 }
 
 .foot_logo{
-  background-image: url("../remove.png");
+  /* background-image: url("./remove.png"); */
   background-size: cover;
   height: 16rem;
   width: 17rem  ;
@@ -670,38 +673,39 @@ justify-content: space-between;
   margin: 3% ;
 }
 
-.platform div{
+.platform img{
   /* Style individual platform items (df, dfs, etc.) */
-  margin: 5px ; /* Add some margin for spacing */
-  padding: 5px 10px; /* Add padding for better readability */
+   /* Add some margin for spacing */
+  margin: 0 2rem 2rem;
   border: 1px solid #ddd; /* Optional: add a border */
   border-radius: 8px; /* Optional: add rounded corners */
   height: 2.4rem;
   width: 2.4rem;
+  background-size: contain;
   
 }
 .div1{
-  background-image: url("../fb.jpg");
+  /* background-image: url("./fb.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
 
 }
 .div2{
-  background-image: url("../insta.jpg");
+  /* background-image: url("./insta.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   mix-blend-mode: screen;
 
 }
 .div3{
-  background-image: url("../twitter.jpg");
+  /* background-image: url("./twitter.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
 
 
 }
 .div4{
-  background-image: url("../tele.jpg");
+  /* background-image: url("./tele.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -883,19 +887,16 @@ justify-content: space-between;
     display: none ;
 
   }
-  .body1b{
-    border: 1px solid #000; /* boundary for body1 and body11 */
-    padding: 0px;
-    background-color: #00ff33 ;
-    margin: 5% -8rem 5rem -2rem;
-    background-image: url("../wordpress.png");
-    background-size: cover;
-    height: 20rem;
-    width: 9rem;
-    border-radius: 20px;
-    background-size: cover;
-    scale: 1.1;
-  }
+  .body1b {
+  border: 1px solid #000;
+  padding: 0;
+  background-color: #00ff33;
+  margin: 5% -8rem 5rem -2rem;
+  height: 20rem;
+  width: 9rem;
+  border-radius: 20px;
+  object-fit: cover; /* Ensure the image covers the container */
+}
   .main_text{
     margin: 2rem 0 0 10rem;
   }
@@ -909,7 +910,7 @@ justify-content: space-between;
   }
   .dishu1{
     display: flex;
-    margin: -2rem -5rem;
+    margin: 2rem -5rem 2rem 3rem;
     z-index: 1;
     font-size: larger;
     font-weight: 900  ;
@@ -1098,7 +1099,7 @@ justify-content: space-between;
   }
   .dishu1{
     display: flex;
-    margin: -2rem -5rem;
+    margin: 2rem -5rem 2rem 3rem;
     z-index: 1;
     font-size: larger;
     font-weight: 900  ;
@@ -1287,7 +1288,7 @@ justify-content: space-between;
   }
   .dishu1{
     display: flex;
-    margin: -2rem -5rem;
+    margin: 2rem -5rem 2rem 3rem;
     z-index: 1;
     font-size: larger;
     font-weight: 900  ;
@@ -1499,7 +1500,7 @@ justify-content: space-between;
   }
   .dishu1{
     display: flex;
-    margin: -2rem -18rem;
+    margin: 2rem -16rem 2rem 3rem;
     z-index: 1;
     font-size: 2rem;
     font-weight: 900  ;
