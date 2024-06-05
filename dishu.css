@@ -89,7 +89,7 @@
 }
 
 .newimg{
-  background-image: url("/bot.png");
+  background-image: url("../bot.png");
   background-size: contain;
   width: 12.5rem;
   height: 11.25rem;
@@ -102,7 +102,7 @@
   justify-content: space-around;
 }
 .newimg2{
-  background-image: url("/Untitled_design__9___2_-removebg-preview.png");
+  background-image: url("../Untitled_design__9___2_-removebg-preview.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 12.5rem;
@@ -356,7 +356,7 @@ h4 {
   padding: 0px;
   background-color: #00ff33 ;
   margin: 5%;
-  background-image: url("/content1.png");
+  background-image: url("../content1.png");
   background-size: cover;
   height: 18rem;
   width: 22rem;
@@ -383,7 +383,7 @@ h4 {
   padding: 0px;
   background-color: #00ff33 ;
   margin: 5%;
-  background-image: url("/email.png");
+  background-image: url("../email.png");
   background-size: cover;
   height: 18rem;
   width: 22rem;
@@ -396,7 +396,7 @@ h4 {
   padding: 0px;
   background-color: #00ff33 ;
   margin: 5%;
-  background-image: url("/wordpress.png");
+  background-image: url("../wordpress.png");
   background-size: cover;
   height: 18rem;
   width: 22rem;
@@ -463,7 +463,7 @@ h4 {
   width: 100%;
 }
 .container-img1{
-  background-image: url("/angelo\ brewing.png");
+  background-image: url("../angelo\ brewing.png");
   height: 18rem;
   width: 31.25rem;
   background-size: contain;
@@ -505,7 +505,7 @@ h4 {
   width: 12.5rem;
   height: 12.5rem;
   background-color: lightgray;
-  background-image: url("/dishuphoto.jpg");
+  background-image: url("../dishuphoto.jpg");
   background-size: cover;
   border-radius: 50%;
   margin-bottom: 0.75rem;
@@ -515,7 +515,7 @@ h4 {
   width: 200px;
   height: 200px;
   background-color: lightgray;
-  background-image: url("/paras.jpg");
+  background-image: url("../paras.jpg");
   background-size: cover;
   border-radius: 50%;
   margin-bottom: 0.75rem;
@@ -583,7 +583,7 @@ h4 {
 }
 
 .foot_logo{
-  background-image: url("/remove.png");
+  background-image: url("../remove.png");
   background-size: cover;
   height: 16rem;
   width: 17rem  ;
@@ -658,27 +658,27 @@ justify-content: space-between;
   
 }
 .div1{
-  background-image: url("/fb.jpg");
+  background-image: url("../fb.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
 }
 .div2{
-  background-image: url("/insta.jpg");
+  background-image: url("../insta.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   mix-blend-mode: screen;
 
 }
 .div3{
-  background-image: url("/twitter.jpg");
+  background-image: url("../twitter.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
 
 }
 .div4{
-  background-image: url("/tele.jpg");
+  background-image: url("../tele.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -832,7 +832,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% -8rem 5rem 2rem;
-    background-image: url("/content1.png");
+    background-image: url("../content1.png");
     background-size: cover;
     height: 20rem;
     width: 6rem;
@@ -848,7 +848,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% -8rem 5rem 2rem;
-    background-image: url("/email.png");
+    background-image: url("../email.png");
     background-size: cover;
     height: 20rem;
     width: 9rem;
@@ -865,7 +865,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% -8rem 5rem -2rem;
-    background-image: url("/wordpress.png");
+    background-image: url("../wordpress.png");
     background-size: cover;
     height: 20rem;
     width: 9rem;
@@ -1021,7 +1021,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% -8rem 5rem 2rem;
-    background-image: url("/content1.png");
+    background-image: url("../content1.png");
     background-size: cover;
     height: 20rem;
     width: 6rem;
@@ -1037,7 +1037,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% -8rem 5rem 2rem;
-    background-image: url("/email.png");
+    background-image: url("../email.png");
     background-size: cover;
     height: 20rem;
     width: 9rem;
@@ -1054,7 +1054,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% -8rem 5rem -2rem;
-    background-image: url("/wordpress.png");
+    background-image: url("../wordpress.png");
     background-size: cover;
     height: 20rem;
     width: 9rem;
@@ -1210,7 +1210,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% -8rem 5rem 2rem;
-    background-image: url("/content1.png");
+    background-image: url("../content1.png");
     background-size: cover;
     height: 20rem;
     width: 6rem;
@@ -1226,7 +1226,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% -8rem 5rem 2rem;
-    background-image: url("/email.png");
+    background-image: url("../email.png");
     background-size: cover;
     height: 20rem;
     width: 9rem;
@@ -1243,7 +1243,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% -8rem 5rem -2rem;
-    background-image: url("/wordpress.png");
+    background-image: url("../wordpress.png");
     background-size: cover;
     height: 20rem;
     width: 9rem;
@@ -1422,7 +1422,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% 0rem 5rem 8rem;
-    background-image: url("/content1.png");
+    background-image: url("../content1.png");
     background-size: cover;
     height: 39rem;
     width: 9rem;
@@ -1438,7 +1438,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin:5% 0rem 5rem 8rem;
-    background-image: url("/email.png");
+    background-image: url("../email.png");
     background-size: cover;
     height: 39rem;
     width: 9rem;
@@ -1455,7 +1455,7 @@ justify-content: space-between;
     padding: 0px;
     background-color: #00ff33 ;
     margin: 5% 0rem 5rem 8rem;
-    background-image: url("/wordpress.png");
+    background-image: url("../wordpress.png");
     background-size: cover;
     height: 41rem;
     width: 9rem;
