@@ -357,28 +357,39 @@ h4 {
   flex: 2;
   border: 1px solid #000; 
   padding: 0px;
-  background-color: #00ff33 ;
-  margin: 5%;
-  background-image: url("../content1.png");
-  background-size: cover;
+  
+  margin-left: 1rem;
+  
+  /* background-size: contain !important; */
   height: 18rem;
   width: 22rem;
   border-radius: 20px;
 
     }
+  .ds{
+    height: 100%;
+    width: 100%;
+    background-size: cover !important;
+    border:1px solid #000;
+    border-radius: 1.7rem;
+  }
     .body11 {
       flex: 1;
       border: 1px solid #000; /* boundary for body1 and body11 */
       padding: 0px;
       background-color: #1a1a1a ;
-      margin: 3.4rem;
+      margin-left: 1rem;
       color: #ffffff;
       border: 2px solid white;
-      padding: 1rem;
+      
       
       border-radius: 1.5rem; 
       height: 19rem;
       width: 22rem;
+    }
+    .body11 p{
+      padding: 5px;
+      font-family: 'Times New Roman', Times, serif;
     }
 .body1a{
   flex: 2;
